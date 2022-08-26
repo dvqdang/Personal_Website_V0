@@ -1,0 +1,126 @@
+body {
+    background-color: #bbb2e9;
+}
+
+header {
+    background-color: #bbb2e9;
+}
+
+nav ul {
+    margin: auto;
+}
+
+main {
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer a i {
+    padding: 5px 25px 5px 0px;
+}
+
+#wrapper {
+    background-color: #bbb2e9;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.nobullets{
+    list-style-type:none;
+    padding-left:0;
+}
+
+.boxstyle{
+    margin-bottom:20px;
+}
+
+.main-image{
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:auto;
+}
+
+/* Control for main page*/
+.personal-words {
+    text-align: center;
+}
+
+.pw1 {
+    background: #bbb2e9;
+    font-family: 'Noto Sans JP', sans-serif;;
+    color: black;
+}
+
+.pw2 {
+    background: #bbb2e9;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+}
+
+.pw3 {
+    background: #bbb2e9;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+}
+
+/* Control for about page*/
+.about-image {
+    text-align: center;
+}
+
+/*Controls for the modal slide show*/
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+
+a.controls:hover{
+    text-decoration:none;
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+
+/* CSS for the icons*/
+i.fa {
+    color: black;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px){
+    /*Media queries for smartphones go here */
+
+    body {
+        background-color: #bbb2e9;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px){
+    /*Media queries for tablets go here */
+    body {
+        background-color: #bbb2e9;
+    }
+
+
+}
